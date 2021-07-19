@@ -1,0 +1,36 @@
+@media screen and (max-width:1024px) {
+   
+    .headerNavLink {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .hebergementsContainer {
+        flex-direction: column;
+        background-color: none;
+        box-shadow: none;
+        
+    }
+    .parent_box {
+        flex-direction: column-reverse;
+        background-color: none;
+        box-shadow: none;
+
+    }
+    .box {
+        width: 100%;
+    }
+    .room {
+        width: 100%;
+    }
+    .popularContainer {
+       max-width: 100%;
+    }
+    .activity {
+           
+    }
+    
+}
+
+  
+
