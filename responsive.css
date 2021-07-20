@@ -6,15 +6,18 @@
 
     }
     .hebergementsContainer {
-        flex-direction: column;
+        flex-direction: column-reverse;
         background-color: none;
         box-shadow: none;
+
         
     }
     .parent_box {
         flex-direction: column-reverse;
-        background-color: none;
+        background-color: white;
         box-shadow: none;
+        margin-top: 10px;
+        width: 100%;
 
     }
     .box {
@@ -26,8 +29,42 @@
     .popularContainer {
        max-width: 100%;
     }
+}
+@media screen and (max-width: 925px) {
     .activity {
-           
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+    }
+    .activityCardWrapimgImg {
+        flex-direction: row;
+        justify-content: center;
+        object-fit: cover;
+        position: relative;
+        max-height: 80px;
+    }
+    .searchForm {
+        width: 100%;
+    }
+    .headerNav {
+        margin-bottom: 35%;
+        flex-wrap: wrap-reverse;
+    }
+    .headerSignup {
+        display: contents;
+    }
+    .footerColumnwrapper {
+        flex-direction: column;
+        margin-left: 5%;
+    }
+
+}
+@media screen and (max-width:400px) {
+    .none {
+        display: inline-block;
+    }
+    .searchFormSubmitinputText {
+        display: none;
     }
     
 }

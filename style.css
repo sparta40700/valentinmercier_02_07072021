@@ -45,7 +45,8 @@ body {
   }
   .headerNav {
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
     grid-area: navbar;
   }
   .headerNavLink {
@@ -73,6 +74,9 @@ body {
   
 
     .header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
       grid-template-columns: auto 1fr auto auto;
       grid-template-areas: "logo . navbar button";
     }
@@ -125,11 +129,18 @@ body {
 }
 
   .searchHeaderSubtitle {
-      display: flex;
-    margin-top: 100px;
+    display: flex;
     flex-wrap: wrap;
   }
-
+  .container {
+    display: flex;
+  }
+  .search-header {
+    flex-direction: column;
+  }
+  .search_header_title {
+    text-align: left;
+  }
   .searchForm {
     display: inline-flex;
     max-width: 100%;
@@ -152,7 +163,7 @@ body {
     border-bottom: #F2F2F2 1px solid;
     padding: 0 1.5rem;
     box-sizing: border-box;
-    width: 14rem;
+    width: 100rem;
     font-size: 1rem;
     font-weight: bold;
     font-family: "Raleway", "Sans serif";
@@ -244,10 +255,13 @@ body {
   .searchResultText {
     margin: 0;
   }
+  .none {
+    display: none;
+  }
   
     .searchForm {
       display: flex;
-      width: 100%;
+      width: 35%;
     }
     .searchFormSearchinput {
       flex: 1;
@@ -346,7 +360,7 @@ body {
     cursor: pointer;
     box-sizing: border-box;
     height: 60%;
-    max-width: 50%;
+    max-width: 30%;
   }
   
   .popularBox .pop{
@@ -456,7 +470,6 @@ body {
     .activity {
       row-gap: 2rem;
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: auto 12rem 12rem;
     }
   
 
@@ -491,7 +504,6 @@ body {
   
 
     .footerColumnwrapper {
-      flex-direction: column;
       padding: 2rem;
     }
     .footerColumnwrapperColumn {
