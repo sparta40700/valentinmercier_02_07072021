@@ -320,7 +320,7 @@ body {
         transition-duration: 0.1s;
         cursor: pointer;
         box-sizing: border-box;
-        height: 30%;
+        max-height: 30%;
         width: 30%;
         margin-bottom: 25px;
      }
@@ -343,6 +343,10 @@ body {
        color:  #0065FC;
        display: flex;
        flex-direction: row;
+     }
+     .textLeft {
+       font-size: 20px;
+       font-weight: bold;
      }
 
 
@@ -387,14 +391,12 @@ body {
     transition-duration: 0.1s;
     cursor: pointer;
     box-sizing: border-box;
-    max-height: 150px;
     width: 100%;
     margin-bottom: 30px;
-    margin: 10px;
   }
   
   .unCheckStart {
-    color:  #f2f2f28f;
+    color:  #d9d9d9;
     display: flex;
     flex-direction: row;
   }
