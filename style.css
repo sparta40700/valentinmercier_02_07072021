@@ -256,7 +256,7 @@ body {
     margin: 0;
   }
   .none {
-    display: none;
+    display: none !important;
   }
   
     .searchForm {
@@ -365,6 +365,9 @@ body {
     box-sizing: border-box;
     height: 60%;
     max-width: 30%;
+  }
+  .text {
+    margin-left: 10px;
   }
   
   .popularBox .pop{
@@ -511,7 +514,6 @@ body {
     .footerColumnwrapperColumn {
       width: 100%;
       padding: 0;
-      margin: 1rem 0;
     }
     .footerColumnwrapperColumn:first-child {
       margin-top: 0;

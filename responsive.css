@@ -56,11 +56,14 @@
         flex-direction: column;
         margin-left: 5%;
     }
+    .footerColumnwrapperColumn {
+        margin: 1rem 0;
+    }
 
 }
 @media screen and (max-width:400px) {
     .none {
-        display: inline-block;
+        display: inline-block !important;
     }
     .searchFormSubmitinputText {
         display: none;
@@ -69,6 +72,9 @@
         top: 0%;
         right: 3%;
         position: absolute;
+    }
+    .main {
+        padding: 0;
     }
     
 }
