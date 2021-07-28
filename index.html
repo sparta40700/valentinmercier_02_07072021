@@ -16,15 +16,17 @@
       name="description"
       content="Reservia, en plein centre de ville ou en pleine nature, rechercher le meilleur hébergement pour des vacances de rêve,au meilleurprix toute l'année."
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="responsive.css" />
     <link rel="stylesheet" href="formulaire.html" />
-    <script
-      src="https://kit.fontawesome.com/406da18a0b.js"
-      crossorigin="anonymous"
-      defer
-    ></script>
   </head>
   <body>
     <header class="header">
@@ -79,27 +81,18 @@
             <span class="searchFilterstxt">Animaux autorisés</span>
           </div>
         </div>
-        <div class="searchResult">
-          <div class="searchResultWrapicon">
-            <i class="fas fa-info searchResultWrapiconIcon"></i>
-          </div>
-          <p class="searchResultText">
+        <div class="searchinfo">
+          <i class="fas fa-info searchinfoicon"></i>
+          <p class="searchinfotext">
             Plus de 500 logements sont disponibles dans cette ville
           </p>
         </div>
-        <section class="hosting" id="hosting">
-          <div class="hostingMain">
-            <header class="hostingMainHeader">
-              <h2 class="hostingMainHeaderTitle">Hébergement à Marseille</h2>
             </header>
-          </div>
-        </section>
       </section>
       <section>
         <div class="hebergementsContainer">
-          <div>
-            <div class="imageTitle"></div>
-
+          <div class="hebergementsmarseille">
+            <h2 class="hebergementstittle">Hébergement à Marseille</h2>
             <div class="parent_box">
               <div class="box">
                 <img
@@ -209,8 +202,8 @@
                   </ul>
                 </div>
               </div>
+              <a href="#" class="textLeft">Afficher plus</a>
             </div>
-            <a href="#" class="textLeft">Afficher plus</a>
           </div>
           <aside class="popularContainer">
             <h2>
@@ -277,66 +270,64 @@
       </section>
       <section class="activity" id="activity">
         <h2 class="activityTitle">Activités à Marseille</h2>
-        <a href="#" class="activityCard activityCard1">
-          <div class="activityCardWrapimg">
+        <div class="activitycontainer">
+          <!--vieux port-->
+          <a href="#" class="activityCard">
             <img
-              class="activityCardWrapimgImg"
+              class="activityCardimg"
               src="./activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
               alt="port remplis de bateau"
             />
+            <h3 class="activityCardTitle">Vieux Port</h3>
+          </a>
+          <!--double container-->
+          <div class="doublecontainer">
+            <a href="#" class="activityCard small1">
+              <img
+                class="activityCardimg"
+                src="./activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                alt="montagne roccailleuse"
+              />
+              <h3 class="activityCardTitle">Fort de Pomègues</h3>
+            </a>
+            <a href="#" class="activityCard small2">
+              <img
+                class="activityCardimg"
+                src="./activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                alt="falaise"
+              />
+              <h3 class="activityCardTitle">Parc National des Calanques</h3>
+            </a>
           </div>
-          <h3 class="activityCardTitle">Vieux Port</h3>
-        </a>
-        <a href="#" class="activityCard activityCard2">
-          <div class="activityCardWrapimg">
+          <!--Notre-Dame-->
+          <a href="#" class="activityCard">
             <img
-              class="activityCardWrapimgImg"
-              src="./activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
-              alt="montagne roccailleuse"
-            />
-          </div>
-          <h3 class="activityCardTitle">Fort de Pomègues</h3>
-        </a>
-        <a href="#" class="activityCard activityCard3">
-          <div class="activityCardWrapimg">
-            <img
-              class="activityCardWrapimgImg"
+              class="activityCardimg"
               src="./activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
-              alt="falaise"
-            />
-          </div>
-          <h3 class="activityCardTitle">Parc National des Calanques</h3>
-        </a>
-        <a href="#" class="activityCard activityCard4">
-          <div class="activityCardWrapimg">
-            <img
-              class="activityCardWrapimgImg"
-              src="./activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
               alt="ville avec vue sur les montagnes"
             />
+            <h3 class="activityCardTitle">Notre-Dame-de-la-Garde</h3>
+          </a>
+          <!--double container-->
+          <div class="doublecontainer">
+            <a href="#" class="activityCard small3">
+              <img
+                class="activityCardimg"
+                src="./activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                alt="telescope"
+              />
+              <h3 class="activityCardTitle">Île du Frioul</h3>
+            </a>
+            <a href="#" class="activityCard small4">
+              <img
+                class="activityCardimg"
+                src="./activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                alt="palais royal"
+              />
+              <h3 class="activityCardTitle">Parc Longchamp</h3>
+            </a>
           </div>
-          <h3 class="activityCardTitle">Notre-Dame-de-la-Garde</h3>
-        </a>
-        <a href="#" class="activityCard activityCard5">
-          <div class="activityCardWrapimg">
-            <img
-              class="activityCardWrapimgImg"
-              src="./activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
-              alt="telescope"
-            />
-          </div>
-          <h3 class="activityCardTitle">Île du Frioul</h3>
-        </a>
-        <a href="#" class="activityCard activityCard6">
-          <div class="activityCardWrapimg">
-            <img
-              class="activityCardWrapimgImg"
-              src="./activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
-              alt="palais royal"
-            />
-          </div>
-          <h3 class="activityCardTitle">Parc Longchamp</h3>
-        </a>
+        </div> 
       </section>
     </main>
     <footer>
