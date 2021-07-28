@@ -1,83 +1,82 @@
-@media screen and (max-width:1024px) {
-   
-    .headerNavLink {
-        flex-direction: column;
-        justify-content: center;
-
-    }
-    .hebergementsContainer {
-        flex-direction: column-reverse;
-        background-color: none;
-        box-shadow: none;
-
-        
-    }
-    .parent_box {
-        flex-direction: column-reverse;
-        background-color: white;
-        box-shadow: none;
-        margin-top: 10px;
-        width: 100%;
-
-    }
-    .box {
-        width: 100%;
-    }
-    .room {
-        width: 100%;
-    }
-    .popularContainer {
-       max-width: 100%;
-    }
+@media screen and (max-width: 1024px) {
+  .headerNavLink {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hebergementsContainer {
+    flex-direction: column-reverse;
+    background-color: none;
+    box-shadow: none;
+  }
+  .parent_box {
+    flex-direction: column-reverse;
+    background-color: white;
+    box-shadow: none;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .box {
+    width: 100%;
+  }
+  .room {
+    width: 100%;
+  }
+  .popularContainer {
+    max-width: 100%;
+    margin-top: 10px;
+  }
 }
 @media screen and (max-width: 925px) {
-    .activity {
-        display: flex;
-        flex-direction: column;
-        min-height: 100%;
-    }
-    .activityCardWrapimgImg {
-        flex-direction: row;
-        justify-content: center;
-        object-fit: cover;
-        position: relative;
-        max-height: 80px;
-    }
-    .searchForm {
-        width: 100%;
-    }
-    .headerNav {
-        flex-wrap: wrap-reverse;
-    }
-    .headerSignup {
-        display: contents;
-    }
-    .footerColumnwrapper {
-        flex-direction: column;
-        margin-left: 5%;
-    }
-    .footerColumnwrapperColumn {
-        margin: 1rem 0;
-    }
+  .headerbar {
+    align-items: center;
+  }
+  .activity {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+  .hebergementsmarseille {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .activityCardWrapimgImg {
+    flex-direction: row;
+    justify-content: center;
+    object-fit: cover;
+    position: relative;
+    max-height: 80px;
+  }
+  .searchForm {
+    width: 100%;
+  }
 
+  .headerNav {
+    flex-wrap: wrap-reverse;
+  }
+  .headerSignup {
+    display: contents;
+  }
+  .footerColumnwrapper {
+    flex-direction: column;
+    margin-left: 5%;
+  }
+  .footerColumnwrapperColumn {
+    margin: 1rem 0;
+  }
 }
-@media screen and (max-width:400px) {
-    .none {
-        display: inline-block !important;
-    }
-    .searchFormSubmitinputText {
-        display: none;
-    }
-    .headerSignup {
-        top: 0%;
-        right: 3%;
-        position: absolute;
-    }
-    .main {
-        padding: 0;
-    }
-    
+@media screen and (max-width: 400px) {
+  .searchFormSubmitText {
+    display: none;
+  }
+  .searchFormSubmitinputText {
+    display: none;
+  }
+  .headerSignup {
+    top: 0%;
+    right: 3%;
+    position: absolute;
+  }
+  .main {
+    padding: 0;
+  }
 }
-
-  
-

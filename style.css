@@ -107,6 +107,7 @@ p {
   color: white;
 }
 .none {
+  display: none;
   color: white;
 }
 /*******FILTRES******/
