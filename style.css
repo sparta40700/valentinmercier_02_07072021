@@ -27,7 +27,7 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
+/*******HEADER*******/
 .header {
   display: grid;
   align-items: center;
@@ -43,7 +43,6 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  /*grid-area: navbar;*/
 }
 .headerbarhosting {
   padding: 2rem;
@@ -87,9 +86,67 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
-
-
-
+/*******rechercher*****/
+.searchicon {
+  background-color: #f2f2f2;
+  font-size: 16px;
+  border-radius: 0.75rem 0 0 0.75rem;
+  padding: 15px;
+}
+.searchForminput {
+  width: 25%;
+  padding: 13px;
+}
+.searchFormSubmit {
+  background-color: #0065fc;
+  border-radius: 0 0.75rem 0.75rem 0;
+  padding: 15px;
+  margin: -4px;
+  border: none;
+}
+.searchFormSubmitText {
+  color: white;
+}
+.none {
+  color: white;
+}
+/*******FILTRES******/
+.searchFiltersTitle {
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+.searchFilters {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  align-items: center;
+  padding: 10px;
+}
+.searchFilters1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 50px;
+  border: 2px solid lightgray;
+  margin-right: 10px;
+  padding-right: 20px;
+}
+.searchFiltersicon {
+  line-height: 40px !important;
+  text-align: center;
+  color: #0065fc;
+  background-color: #deebff;
+  box-sizing: border-box;
+  border-radius: 1.25rem;
+  width: 40px;
+  height: 40px;
+  transform: scale(1.1);
+}
+.searchFilterstxt {
+  margin-left: 10px;
+}
 
 /********HEBERGEMENT MARSEILLE********/
 
@@ -230,7 +287,44 @@ p {
 
 /******FOOTER******/
 
-.footer {
+footer {
   background-color: #f2f2f2;
   width: 100%;
+}
+h2 {
+  margin-bottom: 15px;
+}
+.column {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.footer {
+  margin: 10px;
+}
+.footer1 {
+  margin: 10px;
+  margin-left: 12%;
+  margin-right: 15%;
+}
+.footer2 {
+  margin: 10px;
+}
+.column1,
+.column2,
+.column3 {
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.columnlist {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.columnlist1 {
+  margin-bottom: 10px;
+}
+.columnlist2 {
+  margin-bottom: 10px;
 }
