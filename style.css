@@ -161,6 +161,7 @@ p {
   color: #0065fc;
   border: 1.5px solid lightgray;
   border-radius: 50%;
+  padding: 10px;
   height: 20px;
   width: 20px;
   transform: scale(1.1);
@@ -254,7 +255,9 @@ p {
 .text {
   margin-left: 10px;
 }
-
+.chart {
+  margin-left: 90px;
+}
 .popularBox .pop {
   max-width: 35%;
   height: 135px;

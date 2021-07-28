@@ -8,6 +8,11 @@
     background-color: none;
     box-shadow: none;
   }
+  .hebergementsmarseille {
+    background-color: white;
+    box-shadow: none;
+    width: 100%;
+  }
   .parent_box {
     flex-direction: column-reverse;
     background-color: white;
@@ -30,21 +35,47 @@
   .headerbar {
     align-items: center;
   }
+  .headerbarhosting {
+    border-top: none;
+    border-bottom: 3px #0065fc solid;
+  }
   .activity {
     display: flex;
     flex-direction: column;
     min-height: 100%;
   }
+  .small1,
+  .small2,
+  .small3,
+  .small4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+  }
+  .textLeft {
+    position: absolute;
+  }
+  .activityCard {
+    width: auto;
+    height: auto;
+  }
+  .activitycontainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
   .hebergementsmarseille {
-    margin-top: 10px;
+    background-color: white;
+    box-shadow: none;
     width: 100%;
   }
-  .activityCardWrapimgImg {
+  .activityCardimg {
     flex-direction: row;
     justify-content: center;
     object-fit: cover;
     position: relative;
-    max-height: 80px;
+    height: 150px;
+    width: 100%;
   }
   .searchForm {
     width: 100%;
@@ -54,14 +85,20 @@
     flex-wrap: wrap-reverse;
   }
   .headerSignup {
-    display: contents;
+    order: -1;
+    align-items: flex-end;
+    display: flex;
+    padding: 1rem;
   }
-  .footerColumnwrapper {
+  .column {
+    display: flex;
     flex-direction: column;
-    margin-left: 5%;
   }
-  .footerColumnwrapperColumn {
-    margin: 1rem 0;
+  .footer {
+    width: 100%;
+  }
+  .footer1 {
+    margin-left: 10px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -78,5 +115,31 @@
   }
   .main {
     padding: 0;
+  }
+  .activity {
+    display: flex;
+    flex-direction: column;
+  }
+  .activityCard {
+    width: auto;
+    height: auto;
+  }
+  .activityCardimg {
+    height: 150px;
+  }
+  .none {
+    display: block;
+  }
+  .hebergementsmarseille {
+    background-color: white;
+    box-shadow: none;
+    width: 100%;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer1 {
+    margin-left: 10px;
   }
 }
