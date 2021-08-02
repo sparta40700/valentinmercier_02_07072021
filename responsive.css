@@ -30,6 +30,9 @@
     max-width: 100%;
     margin-top: 10px;
   }
+  .popularBox .pop {
+    height: 150px;
+  }
 }
 @media screen and (max-width: 925px) {
   .headerbar {
@@ -51,9 +54,6 @@
     display: flex;
     flex-wrap: wrap;
     width: auto;
-  }
-  .textLeft {
-    position: absolute;
   }
   .activityCard {
     width: auto;
