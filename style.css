@@ -86,6 +86,9 @@ p {
   margin-inline-end: 0px;
 }
 /*******rechercher*****/
+.search {
+  flex-wrap: nowrap;
+}
 .searchicon {
   background-color: #f2f2f2;
   font-size: 16px;
@@ -110,9 +113,7 @@ p {
   display: none;
   color: white;
 }
-.searchForm {
-  display: inline-block;
-}
+
 /*******FILTRES******/
 .searchFiltersTitle {
   margin-right: 20px;
