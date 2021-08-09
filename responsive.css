@@ -32,12 +32,22 @@
   }
 }
 @media screen and (max-width: 925px) {
+  main {
+    margin: 10px;
+  }
   .headerbar {
     align-items: center;
   }
   .headerbarhosting {
     border-top: none;
     border-bottom: 3px #0065fc solid;
+  }
+  .headerbaractivity {
+    border-bottom: 3px lightgray solid;
+    transition-duration: 0.1s;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
   }
   .activity {
     display: flex;

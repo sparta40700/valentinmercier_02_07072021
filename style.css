@@ -52,7 +52,7 @@ a {
   border-bottom: 3px transparent solid;
 }
 .headerbaractivity {
-  border-bottom-color: #0065fc;
+  transition-duration: 0.1s;
   display: flex;
   align-items: center;
   padding: 2rem;
@@ -73,7 +73,7 @@ a {
 
 .main {
   max-width: 1440px;
-  margin: auto;
+  margin: 10px;
   padding: 0 2rem;
   box-sizing: border-box;
 }
@@ -311,6 +311,7 @@ h2 {
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: stretch;
+  margin-bottom: 30px;
 }
 .activityCardimg {
   width: 100%;
@@ -324,7 +325,7 @@ h2 {
   display: flex;
   flex-direction: column;
   width: 300px;
-  height: 500px;
+  height: 400px;
   margin: 10px;
   box-shadow: 0 0 16px#0000002e;
   border-radius: 1.25rem;
