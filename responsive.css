@@ -97,8 +97,6 @@
   .footer1 {
     margin-left: 10px;
   }
-}
-@media screen and (max-width: 500px) {
   footer {
     display: FLEX;
     flex-direction: column;
