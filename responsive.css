@@ -5,7 +5,6 @@
   }
   .hebergementsContainer {
     flex-direction: column-reverse;
-    background-color: none;
     box-shadow: none;
   }
   .hebergementsmarseille {
@@ -36,11 +35,15 @@
     margin: 10px;
   }
   .headerbar {
+    display: flex;
     align-items: center;
+    justify-content: center;
+    width: 100%;
   }
   .headerbarhosting {
     border-top: none;
     border-bottom: 3px #0065fc solid;
+    width: 50%;
   }
   .headerbaractivity {
     border-bottom: 3px lightgray solid;
@@ -48,6 +51,7 @@
     display: flex;
     align-items: center;
     padding: 2rem;
+    width: 50%;
   }
   .activity {
     display: flex;
@@ -116,6 +120,37 @@
   .searchFormSubmitText {
     display: none;
   }
+  .searchForm {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height: 50px;
+    justify-content: center;
+  }
+  .searchicon {
+    justify-content: center;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    border-radius: 0.75rem 0 0 0.75rem;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+  }
+  .searchForminput {
+    width: 65%;
+    padding: 13px;
+  }
+  .searchFormSubmit {
+    display: flex;
+    justify-content: center;
+    background-color: #0065fc;
+    border-radius: 0.75rem 0.75rem 0.75rem 0.75rem;
+    padding: 15px;
+    margin: 0px;
+    border: none;
+    align-items: center;
+  }
+
   .searchFormSubmitinputText {
     display: none;
   }
@@ -123,6 +158,25 @@
     top: 0%;
     right: 3%;
     position: absolute;
+  }
+  .headerbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .headerbarhosting {
+    border-top: none;
+    border-bottom: 3px #0065fc solid;
+    width: 50%;
+  }
+  .headerbaractivity {
+    border-bottom: 3px lightgray solid;
+    transition-duration: 0.1s;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    width: 50%;
   }
   .main {
     padding: 0;
