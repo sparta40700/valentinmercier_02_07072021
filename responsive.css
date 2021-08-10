@@ -124,6 +124,12 @@
   .searchFormSubmitText {
     display: none;
   }
+  .searchFilters1 {
+    margin-right: 0;
+  }
+  .option_filters {
+    justify-content: space-between;
+  }
   .box {
     width: 100%;
   }
