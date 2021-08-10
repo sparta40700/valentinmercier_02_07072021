@@ -219,6 +219,9 @@
     box-shadow: none;
     width: 100%;
   }
+  .hebergementsContainer {
+    padding: 0;
+  }
   .popularContainer {
     border-radius: 0;
     max-width: 100%;
@@ -228,6 +231,12 @@
   .column {
     display: flex;
     flex-direction: column;
+  }
+  .column1,
+  .column2,
+  .column3 {
+    width: 100%;
+    margin-bottom: 10px;
   }
   .footer1 {
     margin-left: 10px;

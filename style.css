@@ -315,6 +315,10 @@ h2 {
 
 /*****ACTIVITY*****/
 
+.activity {
+  margin-top: 40px;
+}
+
 .activitycontainer {
   display: flex;
   flex-direction: row;
