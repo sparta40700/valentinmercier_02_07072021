@@ -322,6 +322,8 @@ h2 {
 .activitycontainer {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  width: 100%;
   flex-wrap: nowrap;
   align-items: stretch;
   margin-bottom: 30px;
